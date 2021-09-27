@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{1166848C-4185-D9FF-ABA3-5DBF0BDC2F13}",
+	"EngineAssociation": "{84E40694-4557-CA39-8A04-B6B95EDC4C15}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "TimiShooterGame",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
